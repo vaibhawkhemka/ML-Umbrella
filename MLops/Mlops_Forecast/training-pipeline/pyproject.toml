@@ -1,0 +1,27 @@
+[tool.poetry]
+name = "training-pipeline"
+version = "0.1.0"
+description = ""
+authors = ["Iusztin Paul <p.e.iusztin@gmail.com>"]
+readme = "README.md"
+packages = [{include = "training_pipeline"}]
+
+[tool.poetry.dependencies]
+python = "~3.9"
+pyarrow = "^11.0.0"
+wandb = "^0.14.0"
+matplotlib = "^3.7.1"
+python-dotenv = "^1.0.0"
+lightgbm = "^3.3.5"
+sktime = "^0.16.1"
+seaborn = "^0.12.2"
+fire = "^0.5.0"
+Jinja2 = "3.0.1"
+hopsworks = "^3.7.0"
+
+[tool.poetry.group.dev.dependencies]
+black = "^23.1.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
