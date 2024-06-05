@@ -21,22 +21,12 @@ This pattern of the application we're going to build is commonly used as part of
 
 ## Table of Contents
 
-- [Articles](#articles)
 - [Dependencies](#dependencies)
 - [Install](#install)
 - [Usage](#usage)
 - [Notes](#notes)
 - [License](#license)
-- [Author](#contributors)
 
-
-
-## Articles
-
-This is a code-first summary version, make sure to read the article in full ↓
-
-1. [Summary]()
-2. [Full](https://medium.com/decodingml/how-to-build-a-real-time-news-search-engine-using-serverless-upstash-kafka-and-vector-db-6ba393e55024)
 
 ## Dependencies
 
@@ -127,15 +117,3 @@ Here's the full command-set to start the solution:
 
 This article is an open-source project released under the MIT license. Thus, as long you distribute our LICENSE and acknowledge our work, you can safely clone or fork this project and use it as a source of inspiration for whatever you want (e.g., work, university projects, college degree projects, etc.).
 
-
-## Author
-
-<table>
-  <tr>
-    <td><a href="https://github.com/Joywalker" target="_blank"><img src="https://github.com/Joywalker.png" width="100" style="border-radius:50%;"/></a></td>
-    <td>
-      <strong>Razvant Alex</strong><br />
-      <i>Senior ML Engineer</i>
-    </td>
-  </tr>
-</table>
