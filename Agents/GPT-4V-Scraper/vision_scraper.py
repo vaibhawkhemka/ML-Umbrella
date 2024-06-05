@@ -6,6 +6,7 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
+
 model = OpenAI()
 model.timeout = 30
 
@@ -81,5 +82,5 @@ def visionCrawl(url, prompt):
     else:
         return visionExtract(b64_image, prompt)
 
-response = visionCrawl("https://www.myntra.com/reviews/3009070", "Summarize the reviews")
+response = visionCrawl("https://www.myntra.com/men-tshirts", "Summarize the reviews")
 print(response)
