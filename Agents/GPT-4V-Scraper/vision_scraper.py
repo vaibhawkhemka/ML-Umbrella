@@ -20,7 +20,7 @@ def url2screenshot(url):
         os.remove("screenshot.jpg")
 
     result = subprocess.run(
-        ["node", "screenshot1.js", url],
+        ["node", "screenshot.js", url],
         capture_output=True,
         text=True
     )
