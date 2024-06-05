@@ -12,6 +12,8 @@ This pattern of the application we're going to build is commonly used as part of
 
 ![Architecture](./media/upstash_news_search_engine_system_architecture.png)
 
+Credits to Alex Razvant for this great work.
+
 <b>Here's what we're going to learn how to: </b>
 - ingest articles from news APIs
 - spawn multiple Kafka Producer threads and push messages to Upstash Kafka cluster
@@ -116,4 +118,5 @@ Here's the full command-set to start the solution:
 ## License
 
 This article is an open-source project released under the MIT license. Thus, as long you distribute our LICENSE and acknowledge our work, you can safely clone or fork this project and use it as a source of inspiration for whatever you want (e.g., work, university projects, college degree projects, etc.).
+
 
