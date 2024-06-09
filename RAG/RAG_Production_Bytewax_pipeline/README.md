@@ -1,3 +1,7 @@
+## Real-Time RAG Production pipeline for Documents
+
+![Architecture](./media/social_media_retrieval_system_architecture.png)
+
 ## Steps to Follow
 
 1. Install project dependencies using Poetry:
