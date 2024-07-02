@@ -1,0 +1,36 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: bert-deployment
+  labels:
+    app: bertapp
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: bertapp
+  template:
+    metadata:
+      labels:
+        app: bertapp
+    spec:
+      containers:
+      - name: bertapp
+        image: vaibhaw06/bert-kubernetes
+        ports:
+        - containerPort: 8080
+        
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: bert-service
+spec:
+  type: NodePort
+  selector:
+    app: bertapp
+  ports:
+    - protocol: TCP
+      port: 8080
+      targetPort: 8080
+      nodePort: 30100
