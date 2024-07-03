@@ -31,7 +31,7 @@ topic distribution after clustering
 | 5 | 11064 |
 
 PylDAvis:
-![LDA sklearn](/Data/lda_sklearn.png)
+![LDA sklearn](/NLP/Product-Categorization/Data/lda_sklearn.png)
 
 Above shows clear distinction of 6 clusters which is good topic model.
 
@@ -78,22 +78,22 @@ topic distribution after clustering \
 
 WordClouds: \
 cluster 1
-![cluster 1](/Data/Cluster1_Kmeans.png)
+![cluster 1](/NLP/Product-Categorization/Data/Cluster1_Kmeans.png)
 
 cluster 2
-![cluster 2](Data/Cluster2_Kmeans.png)
+![cluster 2](/NLP/Product-Categorization/Data/Cluster2_Kmeans.png)
 
 cluster 3
-![cluster 3](/Data/Cluster3_Kmeans.png)
+![cluster 3](/NLP/Product-Categorization//Data/Cluster3_Kmeans.png)
 
 cluster 4
-![cluster 4](/Data/Cluster4_Kmeans.png)
+![cluster 4](/NLP/Product-Categorization/Data/Cluster4_Kmeans.png)
 
 cluster 5
-![cluster 5](/Data/Cluster5_Kmeans.png)
+![cluster 5](/NLP/Product-Categorization/Data/Cluster5_Kmeans.png)
 
 cluster 6
-![cluster 6](/Data/Cluster6_Kmeans.png)
+![cluster 6](/NLP/Product-Categorization/Data/Cluster6_Kmeans.png)
 
 
 output: 
